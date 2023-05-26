@@ -1,0 +1,105 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body{
+  background-color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.centro{
+display: flex;
+flex-wrap: wrap;
+max-width: 1280px;
+margin:0 auto;
+padding:0 2%;
+}
+header{
+height: 200px;
+padding: 20px 0;
+}
+.logo{
+width: 50%;
+}
+.menu{
+padding: 10px;
+padding-top: 30px;
+text-align: center;
+margin-left: 0px;
+}
+.menu a{
+color: black;
+text-decoration: none;
+font-weight: bold;
+margin-right: 10px;
+}
+#login{
+padding-top: 30px;
+text-align: center;
+}
+#login a{
+color: black;
+top: 70%;
+text-decoration: none;
+font-weight: bold;
+padding-left: 15px;
+text-align: center;
+border: solid 2px black;
+border-radius: 5px;
+margin-left: 130px;
+padding-right: 15px;
+padding-top: 10px;
+padding-bottom: 10px;
+}
+#textlogin:hover{
+background-color: #f2e7dc;
+}
+#null{
+  text-align: center;
+  font-size: 50px;
+  font-family:Arial, Helvetica, sans-serif;
+}
+h1{
+  font-size: 50px;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+text-align: center;
+}
+#destino{
+  width: 40%;
+}
+p{
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-right: 20px;
+}
+table{
+  text-align: center;
+  margin-left: 100px;
+  margin-right: 100px;
+  width: 80%;
+}
+table,th,td {
+border: 2px solid black;
+border-collapse: collapse;
+padding: 5px 3px 5px 3px;
+}
+.registros{
+text-align: center;
+}
+th{
+background-color: #DBF227;
+}
+tr:hover{
+background-color: #cbc9d4d7;
+}
+footer{
+  position: fixed;
+  font-size: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #0B2B40;
+  color: white;
+  text-align: center;
+}

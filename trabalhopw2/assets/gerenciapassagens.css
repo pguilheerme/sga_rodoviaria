@@ -1,0 +1,105 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  width: 100%;
+  min-height: 100vh;
+  background: #4B4952;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h2{
+  text-align: center;
+}
+.container {
+  background-color: #fafafa;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  width: 1250px;
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.header {
+  background-color: #eee;
+  padding: 20px;
+  text-align: center;
+}
+.formulariogerencia {
+  padding: 20px;
+}
+.form-control {
+  margin-bottom: 10px;
+  padding-bottom: 20px;
+  position: relative;
+}
+.form-control input {
+  border: 2px solid #f0f0f0;
+  display: block;
+  border-radius: 10px;
+  font-size: 14px;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid black;
+}
+ #delete {
+  cursor: pointer;
+  background-color: red;
+  border: 2px solid ;
+  color: #fff;
+  font-size: 14px;
+  width: 100%;
+  border-radius: 10px;
+  padding: 10px;
+ }
+#null{
+  text-align: center;
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+font-family: Arial, Helvetica, sans-serif;
+text-align: center;
+}
+#id{
+  width: 8%;
+}
+#nomecompleto{
+width: 32%;
+}
+#cpf{
+width: 12%;
+}
+#telefone{
+width: 11%;
+}
+#destino{
+width: 25%;
+}
+#data{
+  width: 17%;
+  }
+#horario{
+  width: 17%;
+  }
+table{
+width: 100%;
+}
+table,th,td {
+border: 2px solid black;
+border-collapse: collapse;
+padding: 5px 3px 5px 3px;
+}
+.registros{
+text-align: center;
+}
+th{
+background-color: #00BBC9;
+}
+tr:hover{
+background-color: #cbc9d4d7;
+}
